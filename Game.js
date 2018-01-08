@@ -13,7 +13,9 @@ var Game = function(player1, player2) {
 
 	this.board = 
 	this.game[0].join(' | ') + '\n' +
+	'--------------------' + '\n'
 	this.game[1].join(' | ') + '\n' +
+	'--------------------' + '\n' +
 	this.game[2].join(' | ');
 	
 }
